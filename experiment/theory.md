@@ -37,10 +37,10 @@ $$ \approx \frac{2}{T} \frac{1- z^{-1}}{1+z^{-1}}\tag{4} $$
 
 where <span style="font-family:Bodoni MT;font-style:italic;font-size:18px">T<sub>s</sub></span> is the sampling period.
 
-$$ G(z) = \frac{\omega(z)}{V(z)} = \frac{(z^2+2z+1) K_m}{z^2[\frac{4JL}{{T_s}^2}+\frac{2(LK_f+RJ)}{T_s}+(RK_f+K_mK_b)]+z[2(RK_f+K_mK_b)-\frac{8JL}{{T_s}^2}]+[\frac{4JL}{{T_s}^2}-\frac{2(LK_f+RJ)}{T_s}+(RK_f+K_mK_b)]}   \tag{5}$$
+$$ G(z) = \frac{\omega(z)}{V(z)} = \frac{(z^2+2z+1) K_m}{z^2[\frac{4JL}{{T_{s}}^2}+\frac{2(LK_f+RJ)}{T_{s}}+(RK_f+K_mK_b)]+z[2(RK_f+K_mK_b)-\frac{8JL}{{T_{s}}^2}]+[\frac{4JL}{{T_{s}}^2}-\frac{2(LK_f+RJ)}{T_{s}}+(RK_f+K_mK_b)]}   \tag{5}$$
 
 
-$$ G(z) = \frac{\omega(z)}{V(z)} = \frac{(K_m+2K_mz^{-1}+K_m z^{-2})}{[\frac{4JL}{{T_s}^2}+\frac{2(LK_f+RJ)}{T_s}+(RK_f+K_mK_b)]+z^{-1}[2(RK_f+K_mK_b)-\frac{8JL}{{T_s}^2}]+z^{-2}[\frac{4JL}{{T_s}^2}-\frac{2(LK_f+RJ)}{T_s}+(RK_f+K_mK_b)]}   \tag{6}$$
+$$ G(z) = \frac{\omega(z)}{V(z)} = \frac{(K_m+2K_mz^{-1}+K_m z^{-2})}{[\frac{4JL}{{T_{s}}^2}+\frac{2(LK_f+RJ)}{T_{s}}+(RK_f+K_mK_b)]+z^{-1}[2(RK_f+K_mK_b)-\frac{8JL}{{T_{s}}^2}]+z^{-2}[\frac{4JL}{{T_{s}}^2}-\frac{2(LK_f+RJ)}{T_{s}}+(RK_f+K_mK_b)]}   \tag{6}$$
 
 
 <b><i>State Space Model of the DC motor:</i></b> <br>
