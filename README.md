@@ -39,7 +39,7 @@ $$ \dot{x}(t)=A x(t)+B u(t) \tag{3a} $$
 
 Output equation:
 
-$$ y(t)= C x(t) u(t) \tag{3b} $$
+$$ y(t)= C x(t) \tag{3b} $$
 
 where, <span style="font-family:Bodoni MT;font-style:italic;font-size:18px">x</span>(<span style="font-family:Bodoni MT;font-style:italic;font-size:18px">t</span>) is state vector, <span style="font-family:Sitka Text;font-style:italic">y</span>(<span style="font-family:Bodoni MT;font-style:italic;font-size:18px">t</span>) is output vector, 
 <span style="font-family:Bodoni MT;font-style:italic;font-size:18px">u</span> is input or control vector, <span style="font-family:Bodoni MT;font-style:italic;font-size:18px">A</span> is system matrix, 
@@ -53,7 +53,7 @@ $$ {x}[k+1]=F x[k]+g u[k] \tag{4a} $$
 
 Output equation:
 
-$$ y[k])= C x[k] u[k] \tag{4b} $$
+$$ y[k] = C x[k] \tag{4b} $$
 
 <div align="center">
 <img class="img-fluid"  src="experiment/images/F_g.png" alt=""><br>
