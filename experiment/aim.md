@@ -4,7 +4,7 @@
 
 I) Simulate the state space model for DC motor dynamically and observe the effect of
 
-i) Give change in armature voltage and observe effect of motor speed and current 
+&nbsp;&nbsp;&nbsp;i) Give change in armature voltage and observe effect of motor speed and current 
 
-ii) Give change in torque (positive and negative) and observe effect on speed and current.
+&nbsp;&nbsp;&nbsp;ii) Give change in torque (positive and negative) and observe effect on speed and current.
 

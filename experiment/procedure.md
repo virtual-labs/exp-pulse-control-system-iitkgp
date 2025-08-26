@@ -21,9 +21,9 @@
 3. Click on 'Pulse Transfer Function' button to get the pulse transfer function form of the system.
 
 <div align="center">
-<img class="img-fluid"  src="./images/Prod_2_1.png" alt="">
+<img class="img-fluid"  src="./images/2_1.png" alt="">
 
-<b>Fig. 3. Button to get the transfer function form of the system</b>							  
+<b>Fig. 3. Button to get the pulse transfer function form of the system</b>							  
 </div>
 
 4. Click on 'State Space Model' button to get the state space form of the system.
@@ -64,7 +64,7 @@
 <div align="center">
 <img class="img-fluid"  src="./images/7.png" alt="">
 
-<b>Fig. 8. Run button to get the response </b>						  
+<b>Fig. 8. Plot button to get the response </b>						  
 </div>
 
 9. Click on 'Download Plot' button to download the plot. 
