@@ -46,12 +46,12 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Q5. For a discrete-time system with the state-space equations: <img src='./images/poq5.png'/> . What is the controllability matrix?",
+      "question": "Q5. Obtain the discrete-time state matrix for the given continuous-time state matrix <img src='./images/A.png'/>.",
       "answers": {
-        "a": "<img src='./images/poq5a.png'/>",
-        "b": "<img src='./images/poq5b.png'/>",
-        "c": "<img src='./images/poq5c.png'/>",
-        "d": "<img src='./images/poq5d.png'/>"
+        "a": "<img src='./images/G4.png'/>",
+        "b": "<img src='./images/G3.png'/>",
+        "c": "<img src='./images/G2.png'/>",
+        "d": "<img src='./images/G1.png'/>"
         
       },
       "correctAnswer": "d",

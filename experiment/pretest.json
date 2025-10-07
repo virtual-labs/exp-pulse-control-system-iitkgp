@@ -51,7 +51,7 @@
         "a": "Defining the system's stability and behaviour.",
         "b": "Determining the system's time-domain response.",
         "c": "Finding the system's frequency response.",
-        "d": "Estimating the system’s state-space representation."
+        "d": "Designing the input signal for the system."
         
       },
       "correctAnswer": "a",
