@@ -48,8 +48,10 @@ $$ G(z) = \frac{\omega(z)}{V(z)} = \frac{(K_m+2K_mz^{-1}+K_m z^{-2})}{[\frac{4JL
 <b><i>State Space Model of the DC motor:</i></b> <br>
 <br/> Continuous State Space form: <br/>
 
-$$	\begin{bmatrix} 	\dot{\omega}(t)  \\	\dot{i_a}(t) \end{bmatrix}	= \begin{bmatrix} 	-\frac{K_f}{J}  & \frac{K_m}{J}\\	-\frac{K_b}{L} & -\frac{R}{L} \end{bmatrix} \begin{bmatrix} 	\omega(t)  \\	i_a(t) \end{bmatrix} + \begin{bmatrix} 0 & \frac{1}{J} \\	\frac{1}{L} & 0\end{bmatrix} \begin{bmatrix} V_a(t) \\	T_d (t) \end{bmatrix}	\quad	 $$ 
-$$	y(t)	= \begin{bmatrix} 	1  & 0 \end{bmatrix} \begin{bmatrix} 	\omega(t)  \\	i_a(t) \end{bmatrix} 	\quad	 $$ 
+$$	\begin{bmatrix} 	\dot{\omega}(t)  \newline	\dot{i_a}(t) \end{bmatrix}	= \begin{bmatrix} 	-\frac{K_f}{J}  & \frac{K_m}{J}\\	-\frac{K_b}{L} & -\frac{R}{L} \end{bmatrix} \begin{bmatrix} 	\omega(t)  \newline	i_a(t) \end{bmatrix} + \begin{bmatrix} 0 & \frac{1}{J} \newline	\frac{1}{L} & 0\end{bmatrix} \begin{bmatrix} V_a(t) \newline	T_d (t) \end{bmatrix}	\quad	 $$ 
+
+$$	y(t)	= \begin{bmatrix} 	1  & 0 \end{bmatrix} \begin{bmatrix} 	\omega(t)  \newline	i_a(t) \end{bmatrix} 	\quad	 $$ 
+
 $$    \tag{7} $$
 
 where,
@@ -57,8 +59,10 @@ where,
 <br/><br/>
 <br/> Discrete State Space form: <br/>
 
-$$	\begin{bmatrix} 	\omega [k+1]  \\	i_a [k+1] \end{bmatrix}	= \begin{bmatrix} 	1-\frac{K_f T_s}{J}  & \frac{K_m T_s}{J} \\	-\frac{K_b T_s}{L} & 1-\frac{R T_s}{L} \end{bmatrix} \begin{bmatrix} 	\omega [k] \\	i_a [k] \end{bmatrix} + \begin{bmatrix} \frac{K_m {T_s}^2}{2JL} & (\frac{T_s}{J}-\frac{K_f{T_s}^2}{2J^2}) \\	(\frac{T_s}{L}-\frac{R{T_s}^2}{2L^2}) & -\frac{K_b {T_s}^2}{2JL} \end{bmatrix} \begin{bmatrix} V_a(k) \\	T_d (k) \end{bmatrix}	\quad	 $$ 
-$$	y[k]	= \begin{bmatrix} 	1  & 0 \end{bmatrix} \begin{bmatrix} 	\omega[k]  \\	i_a[k] \end{bmatrix} 	\quad	 $$ 
+$$	\begin{bmatrix} 	\omega [k+1]  \newline	i_a [k+1] \end{bmatrix}	= \begin{bmatrix} 	1-\frac{K_f T_s}{J}  & \frac{K_m T_s}{J} \newline	-\frac{K_b T_s}{L} & 1-\frac{R T_s}{L} \end{bmatrix} \begin{bmatrix} 	\omega [k] \newline	i_a [k] \end{bmatrix} + \begin{bmatrix} \frac{K_m {T_s}^2}{2JL} & (\frac{T_s}{J}-\frac{K_f{T_s}^2}{2J^2}) \newline	(\frac{T_s}{L}-\frac{R{T_s}^2}{2L^2}) & -\frac{K_b {T_s}^2}{2JL} \end{bmatrix} \begin{bmatrix} V_a(k) \newline	T_d (k) \end{bmatrix}	\quad	 $$ 
+
+$$	y[k]	= \begin{bmatrix} 	1  & 0 \end{bmatrix} \begin{bmatrix} 	\omega[k]  \newline	i_a[k] \end{bmatrix} 	\quad	 $$ 
+
 $$    \tag{8} $$
 
 
