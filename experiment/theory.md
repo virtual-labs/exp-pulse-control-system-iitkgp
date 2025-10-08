@@ -56,12 +56,26 @@ $$    \tag{7} $$
 where,
 <span style="font-family:Bodoni MT;font-style:italic;font-size:18px">T<sub>d</sub></span> is the load disturbance. 
 <br/><br/>
+
+Discrete state space form represented by the following equations:<br/>
+State equation:
+
+$$ {x}[k+1]=F x[k]+g u[k] \tag{8a} $$
+
+Output equation:
+
+$$ y[k] = C x[k] \tag{8b} $$
+
+<div align="center">
+<img class="img-fluid"  src="./images/F_g.png" alt=""><br>
+</div>
+
 <br/> Discrete State Space form: <br/>
 
 $$	\begin{bmatrix} 	\omega [k+1]  \newline	i_a [k+1] \end{bmatrix}	= \begin{bmatrix} 	1-\frac{K_f T_s}{J}  & \frac{K_m T_s}{J} \newline	-\frac{K_b T_s}{L} & 1-\frac{R T_s}{L} \end{bmatrix} \begin{bmatrix} 	\omega [k] \newline	i_a [k] \end{bmatrix} + \begin{bmatrix} \frac{K_m {T_s}^2}{2JL} & (\frac{T_s}{J}-\frac{K_f{T_s}^2}{2J^2}) \newline	(\frac{T_s}{L}-\frac{R{T_s}^2}{2L^2}) & -\frac{K_b {T_s}^2}{2JL} \end{bmatrix} \begin{bmatrix} V_a(k) \newline	T_d (k) \end{bmatrix}	\quad	 $$ 
 
 $$	y[k]	= \begin{bmatrix} 	1  & 0 \end{bmatrix} \begin{bmatrix} 	\omega[k]  \newline	i_a[k] \end{bmatrix} 	\quad	 $$ 
-$$    \tag{8} $$
+$$    \tag{9} $$
 
 
 
