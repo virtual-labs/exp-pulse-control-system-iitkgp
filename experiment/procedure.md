@@ -1,7 +1,7 @@
 ### Procedure
 
 <b>Steps to perform the simulation</b>
-		
+
 <ol type="1">
 
 <li> Enter the values of the DC motor parameter.</li></br>
@@ -28,7 +28,7 @@
 <img class="img-fluid"  src="./images/2_2.png" alt=""><br>           
 <b>Fig. 4. Button to get the state Space form of the system</b><br/>							  
 </div><br/>
-    
+
 <li> Click on 'Discrete State Space Model' button to get the discrete state space form of the system.</li></br>
 <div align="center">
 <img class="img-fluid"  src="./images/3.png" alt=""><br>           
@@ -49,10 +49,10 @@
 </div><br/>
 
 
-<li> Click on the 'Plot' button to get the response. </li><br/>
+<li> Click on the 'Response' button to generate the plot. </li><br/>
 <div align="center">
 <img class="img-fluid"  src="./images/7.png" alt=""><br> 
-<b>Fig. 8. Plot button to get the response </b><br/>						  
+<b>Fig. 8. Response button to get the plot </b><br/>						  
 </div><br/>
 
 <li> Click on 'Download' button to download the plot.</li><br/> 
@@ -60,6 +60,5 @@
 <li> Click on 'Clear' button to enter the new parameter values of the system.</li><br/> 
 
 </ol>
-
 
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
