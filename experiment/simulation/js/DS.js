@@ -1064,7 +1064,7 @@ document.getElementById('chartContainer1').style.display  = "block";
 	data:[ 
       {        
         type: "spline",
-		color:"#ed2c4e",
+		color:"red",
         dataPoints:dataOPPoints1
 	
        }]
@@ -1111,7 +1111,9 @@ document.getElementById('chartContainer2').style.display  = "block";
 	data:[ 
       {        
         type: "spline",
-		color:"109DB6",
+		color:"red",
+		showInLegend:true,
+		legendText:"(Sampling Time (Ts) = "+ Ts +")",
         dataPoints:dataOPPoints2
 	
        }]
