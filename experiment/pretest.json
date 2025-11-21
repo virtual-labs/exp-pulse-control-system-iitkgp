@@ -2,38 +2,61 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Q1. What does the Pulse Transfer Function relate in discrete systems?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It relates the output to the input in the continuous-time domain.",
+        "b": "It relates the output to the input in the discrete-time domain.",
+        "c": "It defines the relationship between input and output in the frequency domain.",
+        "d": "It is only used in continuous systems."
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Q2. Which of the following is the primary purpose of the Pulse Transfer Function?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "To describe the system behaviour in the time domain.",
+        "b": "To determine the system's stability in the continuous-time domain.",
+        "c": "To model the dynamics of a discrete-time system.",
+        "d": "To convert continuous systems to discrete systems."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "Q3. The region of convergence (ROC) of a discrete-time system’s Pulse Transfer Function determines:",
+      "answers": {
+        "a": "The frequency response of the system.",
+        "b": "The input-output relationship of the system.",
+        "c": "The impulse response of the system.",
+        "d": "The stability of the system."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Q4. What is the primary advantage of representing a discrete-time system in state-space form?",
+      "answers": {
+        "a": "It is easier to compute the system’s transfer function.",
+        "b": "It allows for easy representation of multi-input, multi-output (MIMO) systems.",
+        "c": "It provides a frequency-domain representation.",
+        "d": "It is simpler than transfer function modelling."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Q5. In the z-domain, the poles of the Pulse Transfer Function are important for:",
+      "answers": {
+        "a": "Defining the system's stability and behaviour.",
+        "b": "Determining the system's time-domain response.",
+        "c": "Finding the system's frequency response.",
+        "d": "Designing the input signal for the system."
+        
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
     }
+    
   ]
 }

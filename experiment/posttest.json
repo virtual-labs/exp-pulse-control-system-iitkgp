@@ -2,38 +2,61 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Q1. Which of the following equations represents a general discrete-time state-space model?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "<img src='./images/poq1a.png'/>",
+        "b": "<img src='./images/poq1b.png'/>",
+        "c": "<img src='./images/poq1c.png'/>",
+        "d": "<img src='./images/poq1d.png'/>"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Q2. The matrix <img src='./images/poq2.png'/> in a discrete-time state-space model represents:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The system's dynamics.",
+        "b": "The control input matrix that determines how inputs affect the state.",
+        "c": "The matrix that transforms the state to output.",
+        "d": "The system matrix that defines the next state."
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Q3. In the discrete-time state-space representation, if <img src='./images/poq3.png'/> is a diagonal matrix, the system’s states:",
+      "answers": {
+        "a": "Have no effect on the output.",
+        "b": "Interact with each other in a complex way.",
+        "c": "Are decoupled and evolve independently.",
+        "d": "Do not evolve over time."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+    {
+      "question": "Q4. Given the discrete-time state-space model: <img src='./images/poq4.png'/> . The eigenvalues of the system matrix are:",
+      "answers": {
+        "a": "0.5,0.3",
+        "b": "1,1",
+        "c": "0.8,0.15",
+        "d": "-0.5,-0.3"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Q5. Obtain the discrete-time state matrix for the given continuous-time state matrix <img src='./images/A.png'/>.",
+      "answers": {
+        "a": "<img src='./images/G4.png'/>",
+        "b": "<img src='./images/G3.png'/>",
+        "c": "<img src='./images/G2.png'/>",
+        "d": "<img src='./images/G1.png'/>"
+        
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
     }
+    
   ]
 }
